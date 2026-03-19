@@ -1,0 +1,34 @@
+body {
+    background-color: lightgray;
+    color: maroon;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td, th{
+    border: 1px solid maroon;
+}
+
+#WPI {text-align: center;}
+
+.typicallist{
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    background-color: lightcoral;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+nav ul, nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a:hover{
+    background-color: maroon;
+    color:lightgray
+}
